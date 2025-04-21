@@ -3,8 +3,10 @@ import Banner from '../../components/Banner/Banner'
 import Choose from '../../components/Choose/Choose'
 import Product from '../../components/Product/Product'
 import Experience from '../../components/Experience/Experience'
-import { Materials } from '../../components/Materials/Materials'
+import Materials  from '../../components/Materials/Materials'
 import Testimonial from '../../components/Testimonial/Testimonial'
+import Button from '../../components/Utilities/Button'
+import HeaderTitle from '../../components/Utilities/HeaderTitle/HeaderTitle'
 
 const Home = () => {
   return (
@@ -13,6 +15,9 @@ const Home = () => {
       <div>
         <Banner />
       </div>
+
+     
+      <Button content= {"more"}/>
 
       {/* {choose section} */}
       <div>
